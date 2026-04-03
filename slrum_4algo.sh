@@ -57,6 +57,6 @@ source activate stepcount
 #  INPUT_DIR is a directory — pipeline_cluster.py processes all *.csv inside it.
 python "$PIPELINE" "$INPUT_DIR" "$OUTPUT_DIR" \
     --algorithms verisense adept oak oxford \
-    --interval 10
+    --interval 5
 
 echo "Done: $subj"
