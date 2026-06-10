@@ -7,10 +7,10 @@ upload pipeline_cluster_v3.py, adept_runner_cluster_v3.R, verisense_runner_clust
 run it in cluster by slrum
 For new slrum:
 ```
-sed -i 's/\r//' "/home/wang.yichen8/pipeline_algorithm_stepcount/slrum_4algo_merged.sh"
+sed -i 's/\r//' "/home/wang.yichen8/pipeline_algorithm_stepcount/slrum_4algo_merged_5.sh"
 ```
 
 Then run it
 ```
-sbatch "/home/wang.yichen8/pipeline_algorithm_stepcount/slrum_4algo_merged.sh"
+sbatch "/home/wang.yichen8/pipeline_algorithm_stepcount/slrum_4algo_merged_5.sh"
 ```
