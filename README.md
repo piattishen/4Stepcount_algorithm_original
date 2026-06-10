@@ -2,15 +2,15 @@
 
 Unzip 4_algo_original_code.zip in the location you want.
 
-upload pipeline_cluster.py, adept_runner_cluster.R, verisense_runner_cluster.R
+upload pipeline_cluster_v3.py, adept_runner_cluster_v3.R, verisense_runner_cluster.R
 
 run it in cluster by slrum
 For new slrum:
 ```
-sed -i 's/\r//' "/home/wang.yichen8/pipeline_algorithm_stepcount/slrum_4algo.sh"
+sed -i 's/\r//' "/home/wang.yichen8/pipeline_algorithm_stepcount/slrum_4algo_merged.sh"
 ```
 
 Then run it
 ```
-sbatch "/home/wang.yichen8/pipeline_algorithm_stepcount/slrum_4algo.sh"
+sbatch "/home/wang.yichen8/pipeline_algorithm_stepcount/slrum_4algo_merged.sh"
 ```
