@@ -14,3 +14,7 @@ Then run it
 ```
 sbatch "/home/wang.yichen8/pipeline_algorithm_stepcount/slrum_4algo_merged_5.sh"
 ```
+
+For plot_still.py, it is only for the exploring the relationship between accel tense and label include still.
+
+For analysis_vali.py, it can use python command directly run on the cluster when the target address is the as same as in this code.
